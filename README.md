@@ -1,5 +1,5 @@
 ## Đây là bài về nhà không phải khoe
-#### `Được thiết kế bởi Hoàng Duy (DuyPlus)`
+#### `Được thiết kế bởi Nguyễn Hoàng Duy (DuyPlus)`
 #### `MSSV: PS18293`
 #### `Khoá K16`
 
