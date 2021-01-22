@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wrap">
+            <h2 class="title">Registration Form</h2>
+            <form>
+                <div class="row">
+                    <div class="column">
+                            <label class="label">first name</label>
+                            <input class="info" type="text" name="firstname">
+                    </div>
+                    <div class="column">
+                            <label class="label">last name</label>
+                            <input class="info" type="text" name="lastname">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                            <label class="label">Birthday</label>
+                            <input class="info" type="date" name="birthday">
+                    </div>
+                    <div class="column">
+                        <label class="label">Gender</label>
+                        <div style="padding-top: 10px;">
+                            <label class="radio-container" style="margin-right: 45px;">Male
+                                <input type="radio" checked="checked" name="gender">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="radio-container">Female
+                                <input type="radio" name="gender">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <label class="label">Email</label>
+                        <input class="info" type="email" name="email">
+                    </div>
+                    <div class="column">
+                        <label class="label">Phone Number</label>
+                        <input class="info" type="text" name="phone">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label class="label">Subject</label>
+                        <select name="subject">
+                            <option disabled="disabled" selected="selected">Choose option</option>
+                            <option>Subject 1</option>
+                            <option>Subject 2</option>
+                            <option>Subject 3</option>
+                        </select>
+                </div>
+                <div style="padding-top: 37px;">
+                    <button class="btn" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
